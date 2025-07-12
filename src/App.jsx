@@ -1,17 +1,16 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import React, { useState } from 'react';
-import "./index.css";
-import Home from "./Pages/Home";
-import About from "./Pages/About";
+import { AnimatePresence } from 'framer-motion';
+import { useState } from 'react';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AnimatedBackground from "./components/Background";
 import Navbar from "./components/Navbar";
-import Portofolio from "./Pages/Portofolio";
-import ContactPage from "./Pages/Contact";
 import ProjectDetails from "./components/ProjectDetail";
-import WelcomeScreen from "./Pages/WelcomeScreen";
-import { AnimatePresence } from 'framer-motion';
-import notfound from "./Pages/404";
+import "./index.css";
 import NotFoundPage from "./Pages/404";
+import About from "./Pages/About";
+import ContactPage from "./Pages/Contact";
+import Home from "./Pages/Home";
+import Portofolio from "./Pages/Portofolio";
+import WelcomeScreen from "./Pages/WelcomeScreen";
 
 const LandingPage = ({ showWelcome, setShowWelcome }) => {
   return (
@@ -36,7 +35,7 @@ const LandingPage = ({ showWelcome, setShowWelcome }) => {
               <span className="block text-sm pb-4 text-gray-500 text-center dark:text-gray-400">
                 © 2025{" "}
                 <a href="https://flowbite.com/" className="hover:underline">
-                  EkiZR™
+                  Anudeep AS™
                 </a>
                 . All Rights Reserved.
               </span>
@@ -57,7 +56,7 @@ const ProjectPageLayout = () => (
         <span className="block text-sm pb-4 text-gray-500 text-center dark:text-gray-400">
           © 2023{" "}
           <a href="https://flowbite.com/" className="hover:underline">
-            EkiZR™
+            Anudeep AS™
           </a>
           . All Rights Reserved.
         </span>

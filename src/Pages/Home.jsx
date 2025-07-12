@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useCallback, memo } from "react"
-import { Github, Linkedin, Mail, ExternalLink, Instagram, Sparkles } from "lucide-react"
 import { DotLottieReact } from '@lottiefiles/dotlottie-react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import { ExternalLink, Github, Instagram, Linkedin, Mail, Sparkles } from "lucide-react"
+import { memo, useCallback, useEffect, useState } from "react"
 
 // Memoized Components
 const StatusBadge = memo(() => (
@@ -77,12 +77,12 @@ const SocialLink = memo(({ icon: Icon, link }) => (
 const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
-const WORDS = ["Network & Telecom Student", "Tech Enthusiast"];
+const WORDS = ["Web Developer", "React & Firebase Developer", "UI/UX Explorer"];
 const TECH_STACK = ["React", "Javascript", "Node.js", "Tailwind"];
 const SOCIAL_LINKS = [
-  { icon: Github, link: "https://github.com/EkiZR" },
-  { icon: Linkedin, link: "https://www.linkedin.com/in/ekizr/" },
-  { icon: Instagram, link: "https://www.instagram.com/ekizr._/?hl=id" }
+  { icon: Github, link: "https://github.com/Anudeep-AS" },
+  { icon: Linkedin, link: "https://www.linkedin.com/in/Anudeep-AS/" },
+  { icon: Instagram, link: "https://www.instagram.com/Anudeep__AS/?hl=en" }
 ];
 
 const Home = () => {
@@ -183,7 +183,7 @@ const Home = () => {
                 <p className="text-base md:text-lg text-gray-400 max-w-xl leading-relaxed font-light"
                   data-aos="fade-up"
                   data-aos-delay="1000">
-                  Menciptakan Website Yang Inovatif, Fungsional, dan User-Friendly untuk Solusi Digital.
+                  Creating innovative, functional, and user-friendly websites for digital solutions
                 </p>
 
                 {/* Tech Stack */}
