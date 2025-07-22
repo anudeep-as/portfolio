@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.Anudeep AS.my.id/sitemap.xml
+Sitemap: https://anudeep-as-portfolio.vercel.app//sitemap.xml
